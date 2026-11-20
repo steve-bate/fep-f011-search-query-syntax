@@ -3,9 +3,8 @@ slug: "f011"
 type: implementation
 authors: Steve Bate <svc-fep@stevebate.net>
 status: DRAFT
-discussionsTo: https://codeberg.org/steve-bate/fep/issues
+discussionsTo: https://github.com/steve-bate/fep-f011-search-query-syntax/issues
 dateReceived: 2026-03-17
-trackingIssue: https://codeberg.org/fediverse/fep/issues/791
 ---
 # FEP-f011: Full-Text Search Query Syntax for ActivityPub
 
@@ -109,7 +108,7 @@ The search endpoint is specified using the `search` property of the ActivityPub 
 ```json
 {
   "@context": [
-    "https://w3id.org/fep/f011"
+    "https://w3id.org/fep/f011",
     "https://www.w3.org/ns/activitystreams"
   ],
   ...
@@ -169,7 +168,7 @@ Response:
 
 ### Example 3: Boolean + Grouping
 
-Request:v`(cats OR dogs) AND NOT testing`
+Request: `(cats OR dogs) AND NOT testing`
 
 
 ```http

@@ -4,7 +4,7 @@
     {
       "fepf011": "https://w3id.org/fep/f011#",
       "endpoints": {
-        "@id": "https://www.w3.org/ns/activitypub#endpoints",
+        "@id": "https://www.w3.org/ns/activitystreams#endpoints",
         "@context": {
           "search": {
             "@id": "fepf011:search",
