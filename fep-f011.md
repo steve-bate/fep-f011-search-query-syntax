@@ -4,7 +4,6 @@ type: implementation
 authors: Steve Bate <svc-fep@stevebate.net>
 status: DRAFT
 discussionsTo: https://github.com/steve-bate/fep-f011-search-query-syntax/issues
-dateReceived: 2026-03-17
 ---
 # FEP-f011: Full-Text Search Query Syntax for ActivityPub
 
