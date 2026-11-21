@@ -1,6 +1,6 @@
 # FEP-f011: Full-Text Search Query Syntax for ActivityPub
 
-**Status:** DRAFT · **Type:** implementation · **Author:** Steve Bate · **Received:** 2026-03-17
+**Status:** DRAFT · **Type:** implementation · **Author:** Steve Bate
 
 ## Overview
 
